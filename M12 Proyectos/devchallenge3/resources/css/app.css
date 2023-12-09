@@ -1,0 +1,129 @@
+
+/* Anular estilos de enlace de Bootstrap en FullCalendar */
+#calendar a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+/* Anular estilos de enlace para los números de los días en FullCalendar */
+#calendar .fc-daygrid-day a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+/* Estilos generales */
+#top {
+  background: #eee;
+  border-bottom: 1px solid #ddd;
+  padding: 0 10px;
+  line-height: 40px;
+  font-size: 12px;
+}
+
+/* Estilos del contenedor del calendario */
+#calendar-container {
+  max-width: 90%; /* Limita el ancho máximo al 90% del ancho del contenedor padre */
+  margin: 0 auto; /* Centra el calendario horizontalmente y añade márgenes automáticos a izquierda y derecha */
+  padding: 20px; /* Añade algo de espacio alrededor del calendario */
+}
+/* Estilos del calendario */
+#calendar {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  /* Asegúrate de que el calendario ocupe todo el ancho del contenedor */
+  width: 100%;
+}
+
+/* Encabezado del calendario */
+.fc-header-toolbar {
+  background-color: #343a40;
+  color: #ffffff;
+  border-radius: 10px 10px 0 0;
+}
+
+.fc-header-toolbar button {
+  color: #ffffff !important;
+}
+
+/* Botones de cambio de vista */
+.fc-button-group button {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #ffffff !important;
+}
+
+.fc-button-group button:hover {
+  background-color: #495057;
+  border-color: #495057;
+}
+
+/* Días de la semana */
+.fc-day-header {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+/* Días del mes */
+.fc-day {
+  border: 1px solid #ced4da;
+  background-color: #ffffff;
+}
+
+/* Días seleccionados */
+.fc-day.fc-day-selected {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+/* Modal de evento */
+.modal-content {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs en el modal de evento */
+.modal-content input,
+.modal-content textarea {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+/* Botones en el modal de evento */
+.modal-content button {
+  border-radius: 5px;
+}
+
+/* Botones Primarios en el modal de evento */
+.modal-content button.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.modal-content button.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004080;
+}
+
+/* Botones Secundarios en el modal de evento */
+.modal-content button.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.modal-content button.btn-secondary:hover {
+  background-color: #495057;
+  border-color: #495057;
+}
+/* Días del mes - Hover */
+.fc-day:hover {
+  background-color: #f0f8ff; /* Puedes ajustar el color según tus preferencias */
+}
+
+/* Días de la semana - Hover */
+.fc-day:hover {
+  background-color: #f0f8ff; /* Puedes ajustar el color según tus preferencias */
+} /*la semana - Hover */
+.fc-day:hover {
+  background-color: #f0f8ff; /* Puedes ajustar el color según tus preferencias */
+}
